@@ -2,6 +2,8 @@
 
 A simple CLI tool for printing ASCII art of any Pokemon directly in your terminal.
 
+assets/demo.mov
+
 ## Features
 
 - Display any Pokemon as colored ASCII art
