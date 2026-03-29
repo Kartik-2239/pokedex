@@ -154,9 +154,9 @@ def print_result(ascii_art, pokemon_name, pokemon_number, shiny, cache_hit, star
     if verbose:
         total = (time.time() - start_time) * 1000
         if cache_hit:
-            print(f"⚡ Cache hit! (resolved in {total:.2f}ms)")
+            print(f"From saved list (resolved in {total:.2f}ms)")
         else:
-            print(f"🌐 Fetched from API (took {fetch_time * 1000:.2f}ms, total {total:.2f}ms)")
+            print(f"Fetched from API (took {fetch_time * 1000:.2f}ms, total {total:.2f}ms)")
 
 
 def handle_fetch_and_display(pokemon_number, pokemon_name, shiny, sprite_url, index, start_time, verbose):

@@ -3,6 +3,7 @@ name = "pokedex"
 version = "0.1.0"
 description = "A simple cli tool for printing ascii art of any pokemon."
 readme = "README.md"
+authors = [{name = "Kartik"}]
 requires-python = ">=3.12"
 dependencies = [
     "pillow>=12.1.1",
@@ -14,3 +15,7 @@ pokedex = "pokedex.cli:main"
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/Kartik-2239/pokedex"
+
