@@ -14,7 +14,7 @@ A simple CLI tool for printing ASCII art of any Pokemon directly in your termina
 ## Installation
 
 ```bash
-uv pip install -e .
+uv tool install -e .
 ```
 
 ## Usage
