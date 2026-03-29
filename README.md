@@ -2,7 +2,7 @@
 
 A simple CLI tool for printing ASCII art of any Pokemon directly in your terminal.
 
-assets/demo.mov
+![Demo](assets/demo.gif)
 
 ## Features
 
